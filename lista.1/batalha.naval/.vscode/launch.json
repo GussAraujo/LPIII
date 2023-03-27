@@ -1,0 +1,32 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "BatalhaNaval",
+      "request": "launch",
+      "mainClass": "BatalhaNaval",
+      "projectName": "batalha.naval_1c1b1a40"
+    },
+    {
+      "type": "java",
+      "name": "Launch External Terminal",
+      "request": "launch",
+      "console": "externalTerminal",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "BatalhaNaval",
+      "request": "launch",
+      "mainClass": "BatalhaNaval",
+      "projectName": "batalha.naval_27531e0e"
+    }
+  ]
+}

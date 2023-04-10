@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Ex2 {
 
   public static void main(String[] args) {
-    int n = 3;
+    int n = 10;
     double[] voltagens = new double[n];
     double media = 0, desvioPadrao = 0;
     Scanner sc = new Scanner(System.in);

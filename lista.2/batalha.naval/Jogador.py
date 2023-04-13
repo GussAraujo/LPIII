@@ -17,7 +17,7 @@ class Jogador:
         while True:
             linha = int(input())
             coluna = int(input())
-            if self.tabuleiro.atirar(linha, coluna, self.nome) == False:
+            if self.tabuleiro.atirar(linha, coluna, self.nome):
                 break
 
         self.tabuleiro.exibir(False)

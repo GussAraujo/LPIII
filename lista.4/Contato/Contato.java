@@ -5,10 +5,10 @@ public class Contato {
   private String nome, email, dataNascimento, telefone;
 
   public void inicializarContato(String nome, String email, String telefone, String dataNascimento) {
-    this.nome = nome;
-    this.email = email;
-    this.telefone = telefone;
-    this.dataNascimento = dataNascimento;
+    setNome(nome);
+    setEmail(email);
+    setDataNascimento(dataNascimento);
+    setTelefone(telefone);
   }
 
   public String getNome() {

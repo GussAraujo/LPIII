@@ -7,13 +7,13 @@ public class Data {
 
   public void inicializarData(int dia, int mes, int ano) {
     if (verificarData(dia, mes, ano)) {
-      this.dia = dia;
-      this.mes = mes;
-      this.ano = ano;
+      setDia(dia);
+      setMes(mes);
+      setAno(ano);
     } else {
-      this.dia = 0;
-      this.mes = 0;
-      this.ano = 0;
+      setDia(0);
+      setMes(0);
+      setAno(0);
     }
   }
 
